@@ -1,0 +1,5 @@
+pandas==2.2.2
+fastapi==0.111.1
+uvicorn==0.30.3
+python-bitcoinlib==0.12.2
+python-dotenv==1.0.1

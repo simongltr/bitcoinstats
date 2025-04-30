@@ -1,0 +1,20 @@
+[project]
+name = "bitcoinstats"
+version = "0.1.0"
+description = "Simple web server for bitcoin stats."
+readme = "README.md"
+requires-python = ">=3.10.0"
+dependencies = [
+    "fastapi>=0.115.8",
+    "pandas>=2.2.3",
+    "python-bitcoinlib>=0.12.2",
+    "python-dotenv>=1.0.1",
+    "requests>=2.32.3",
+    "uvicorn>=0.34.0",
+]
+
+[tool.ruff.lint]
+select = ["ALL"]
+
+[tool.ruff.format]
+quote-style = "double"
